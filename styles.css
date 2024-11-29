@@ -9,7 +9,7 @@ body {
 header {
     background-color: #004080;
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,6 +17,7 @@ header {
 
 header .header-logo img {
     width: 150px;
+    padding-left: 20px;
 }
 
 nav ul {
@@ -33,6 +34,7 @@ nav ul li a {
     color: white;
     font-weight: bold;
     font-size: 16px;
+    padding-right: 20px;
 }
 
 .hero {
@@ -89,15 +91,16 @@ h2 {
     margin: 0 auto;
 }
 
-.draw-info ul {
+.how-works ul, .draw-info ul, .prizes ul  {
     list-style-type: none;
     padding: 0;
 }
 
-.draw-info ul li {
+.how-works ul li, .draw-info ul li, .prizes ul li {
     font-size: 1.5em;
     margin-bottom: 15px;
 }
+
 
 footer {
     background-color: #333;
@@ -129,48 +132,112 @@ footer {
         margin-left: 0;
         margin-bottom: 10px;
     }
+}
 
-/* Tokenomics Page Styles */
 .tokenomics {
     background-color: #ffffff;
     padding: 40px 20px;
     color: #333;
 }
 
-.tokenomics h2 {
+.tokenomics h2, .governance h2, .future-plans h2 {
     font-size: 2.5em;
     text-align: center;
     margin-bottom: 40px;
 }
 
-.tokenomics-details, .prize-pool, .transaction-fees, .governance, .future-plans {
-    margin-bottom: 30px;
-}
-
-.tokenomics-details h3, .prize-pool h3, .transaction-fees h3, .governance h3, .future-plans h3 {
+.tokenomics-initial h3 {
     font-size: 2em;
     margin-bottom: 15px;
+    color: #333;
+}
+
+.tokenomics-initial p, .governance p, .future-plans p {
+    font-size: 1.5em;
+    margin-bottom: 15px; 
+}
+
+.tokenomics-initial p strong, {
     color: #004080;
 }
 
-.tokenomics-details ul, .prize-pool ul, .transaction-fees ul {
-    list-style-type: none;
-    padding-left: 0;
+/* Tokenomics Table */
+#tokenomics-table {
+    padding: 20px;
+    background:none;
+    width: 70%;
+    margin: 0 auto;
 }
 
-.tokenomics-details ul li, .prize-pool ul li, .transaction-fees ul li {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+#tokenomics-table h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
 }
 
-.tokenomics-details p, .prize-pool p, .transaction-fees p, .governance p, .future-plans p {
-    font-size: 1.1em;
-    line-height: 1.5em;
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: left;
 }
 
-.tokenomics-details p strong, .prize-pool p strong, .transaction-fees p strong {
-    color: #004080;
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
 }
+
+table thead th {
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #e6f7ff;
+}
+
+table th {
+    text-align: left;
+}
+
+table td:first-child {
+    text-align: left;
+}
+
+table td:nth-child(2), td:nth-child(3)  {
+    text-align: center;
+}
+/* End Tokenomics Table */
+
+/* Tokenomics Details */
+.tokenomics-details {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tokenomics-details h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #333;
+}
+
+.tokenomics-details p {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: left; 
+}
+/*End Tokenomics Details */
 
 .container {
     max-width: 1200px;
