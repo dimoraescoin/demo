@@ -65,46 +65,13 @@ nav ul li a {
 /* End Intro */
 
 
-button, .button {
-    background-color: #004080;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    cursor: pointer;
-    font-size: 1.2em;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-}
-
-button:hover, .button:hover {
-    background-color: #0056b3;
-}
-
-section {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
+/* How Works */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #737274;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-/* How Works */
 .how-works ul, .draw-info ul, .prizes ul  {
     list-style-type: none;
     padding: 0;
@@ -145,8 +112,7 @@ footer {
 
 /* Tokenomics */
 .tokenomics {
-    background-color: #ffffff;
-    padding: 40px 20px;
+    background-color: #00cdd4;
     color: #333;
 }
 
@@ -167,9 +133,6 @@ footer {
     margin-bottom: 15px; 
 }
 
-.tokenomics-initial p strong, {
-    color: #004080;
-}
 
 /* Tokenomics Table */
 #tokenomics-table {
@@ -209,12 +172,12 @@ table tbody tr:nth-child(odd) {
     background-color: #f2f2f2;
 }
 
-table tbody tr:hover {
-    background-color: #e6f7ff;
+table tbody tr:nth-child(even) {
+    background-color: #dfdcdc;
 }
 
-table th {
-    text-align: left;
+table tbody tr:hover {
+    background-color: #e6f7ff;
 }
 
 table td:first-child {
@@ -228,11 +191,10 @@ table td:nth-child(2), td:nth-child(3)  {
 
 /* Tokenomics Details */
 .tokenomics-details {
-    font-size: 1.5em;
     background-color: #F777;
     margin-bottom: 15px;
     color: #333;
-    max-width: 1200px;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -241,13 +203,14 @@ table td:nth-child(2), td:nth-child(3)  {
     background-color: #e6f7ff;
     margin-bottom: 15px;
     text-align: left;
-    color: #333;
+
 }
 
 .tokenomics-details p {
     font-size: 1.5em;
     margin-bottom: 15px;
     text-align: left; 
+
 }
 /*End Tokenomics Details */
 /* End Tokenomics */
@@ -263,15 +226,58 @@ table td:nth-child(2), td:nth-child(3)  {
 
     .timeline-item h3 {
         color: #004080;
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     .timeline-item ul li {
-    margin-bottom: 10px;
-	font-size: 1.5em;
-    color: #555;
-	text-align: left;
-	margin-left: 500px;
+    	margin-bottom: 10px;
+	    font-size: 1.5em;
+    	color: ##333;
+	    text-align: left;
+	    margin-left: 500px;
+        list-style-type: square;
     }
 </style>
 /* End Roadmap */
+
+/*Footer*/
+
+.container4 {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(59, 138, 100);
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+button, .button {
+    background-color: #004080;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+button:hover, .button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/*End Footer*/
