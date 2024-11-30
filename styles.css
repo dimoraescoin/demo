@@ -191,7 +191,6 @@ table td:nth-child(2), td:nth-child(3)  {
 
 /* Tokenomics Details */
 .tokenomics-details {
-    background-color: #F777;
     margin-bottom: 15px;
     color: #333;
     width: 70%;
@@ -200,7 +199,6 @@ table td:nth-child(2), td:nth-child(3)  {
 
 .tokenomics-details h2 {
     font-size: 1.5em;
-    background-color: #e6f7ff;
     margin-bottom: 15px;
     text-align: left;
 
